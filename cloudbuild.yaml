@@ -13,13 +13,12 @@ steps:
   args:
   - 'run'
   - 'deploy'
-  - 'my-service'  # Replace with your service name
+  - 'my-service'
   - '--image'
   - 'us-central1-docker.pkg.dev/advmediasearch/demo/my-build:prod1'
   - '--region'
-  - 'us-central1'  # You can change this if you want to deploy to a different region
+  - 'us-central1'
   - '--platform'
   - 'managed'
-  # Optional: if you want to allow unauthenticated access
   - '--allow-unauthenticated'
 
